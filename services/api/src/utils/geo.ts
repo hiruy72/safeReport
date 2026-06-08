@@ -34,3 +34,5 @@ export async function findNearestStation(
   }
   return nearest;
 }
+
+// Commit: Add geolocation parsing utilities - 2026-06-08T23:08:53
