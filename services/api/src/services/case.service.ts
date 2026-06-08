@@ -229,3 +229,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Optimize database query for case search - 2026-06-08T10:35:12
 
 // Commit: Implement AI case matching service - 2026-06-08T09:43:49
+
+// Commit: Create police dashboard with case queue - 2026-06-08T13:42:23
