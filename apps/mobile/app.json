@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "SafeHer",
+    "slug": "safeher",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "safeher",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "backgroundColor": "#0f0a1a"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.safeher.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0f0a1a"
+      },
+      "package": "com.safeher.app"
+    },
+    "plugins": ["expo-router", "expo-secure-store"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
