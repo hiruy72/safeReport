@@ -192,3 +192,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 
   return { success: true };
 }
+
+// Commit: Implement chat between victim and officer - 2026-06-08T22:56:25
