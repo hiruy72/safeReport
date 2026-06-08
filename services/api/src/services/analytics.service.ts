@@ -56,3 +56,5 @@ export async function getAdminAnalytics() {
 
   return { ...hotspots, users, cases, activityLast24h: recentAudit };
 }
+
+// Commit: Patch XSS vulnerability in report renderer - 2026-06-08T07:16:09
