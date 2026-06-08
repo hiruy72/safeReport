@@ -1,0 +1,442 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  VICTIM
+  POLICE
+  ADMIN
+}
+
+enum UserStatus {
+  PENDING
+  ACTIVE
+  SUSPENDED
+  REJECTED
+}
+
+enum Gender {
+  FEMALE
+  MALE
+  OTHER
+  PREFER_NOT_TO_SAY
+}
+
+enum IdentityVerificationStatus {
+  PENDING
+  VERIFIED
+  REJECTED
+}
+
+enum ReportCategory {
+  SEXUAL_HARASSMENT
+  DOMESTIC_VIOLENCE
+  PHYSICAL_ASSAULT
+  STALKING
+  ONLINE_HARASSMENT
+  WORKPLACE_HARASSMENT
+  SCHOOL_HARASSMENT
+  HUMAN_TRAFFICKING
+  OTHER
+}
+
+enum AbuserRelationship {
+  EX_BOYFRIEND
+  TEACHER
+  EMPLOYER
+  FAMILY_MEMBER
+  STRANGER
+  OTHER
+}
+
+enum CaseStatus {
+  SUBMITTED
+  IDENTITY_VERIFIED
+  SENT_TO_POLICE
+  UNDER_REVIEW
+  INVESTIGATION_STARTED
+  EVIDENCE_COLLECTION
+  SUSPECT_IDENTIFIED
+  COURT_PROCESS
+  RESOLVED
+  CLOSED
+}
+
+enum CasePriority {
+  NORMAL
+  URGENT
+  SOS
+}
+
+enum EvidenceType {
+  IMAGE
+  VIDEO
+  AUDIO
+  SCREENSHOT
+  PDF
+  DOCUMENT
+  OTHER
+}
+
+enum InfoRequestType {
+  MORE_SCREENSHOTS
+  WITNESS_INFO
+  EXACT_LOCATION
+  ANOTHER_DOCUMENT
+  OTHER
+}
+
+enum InfoRequestStatus {
+  PENDING
+  FULFILLED
+  DISMISSED
+}
+
+enum NotificationChannel {
+  IN_APP
+  EMAIL
+  SMS
+}
+
+enum AuditAction {
+  VIEW_EVIDENCE
+  DOWNLOAD_EVIDENCE
+  CHANGE_STATUS
+  VIEW_IDENTITY
+  LOGIN
+  LOGOUT
+  CREATE_CASE
+  CLOSE_CASE
+}
+
+model User {
+  id           String     @id @default(cuid())
+  email        String     @unique
+  passwordHash String
+  role         UserRole
+  status             UserStatus @default(PENDING)
+  twoFactorSecret    String?
+  isTwoFactorEnabled Boolean    @default(false)
+  createdAt    DateTime   @default(now())
+  updatedAt    DateTime   @updatedAt
+
+  victimProfile VictimProfile?
+  policeProfile PoliceProfile?
+  adminProfile  AdminProfile?
+  refreshTokens RefreshToken[]
+  auditLogs     AuditLog[]
+  notifications Notification[]
+
+  @@index([role, status])
+}
+
+model RefreshToken {
+  id        String   @id @default(cuid())
+  token     String   @unique
+  userId    String
+  expiresAt DateTime
+  createdAt DateTime @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+}
+
+model Region {
+  id        String   @id @default(cuid())
+  name      String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  cities         City[]
+  policeStations PoliceStation[]
+  victimProfiles VictimProfile[]
+}
+
+model City {
+  id       String @id @default(cuid())
+  name     String
+  regionId String
+
+  region         Region          @relation(fields: [regionId], references: [id], onDelete: Cascade)
+  policeStations PoliceStation[]
+  victimProfiles VictimProfile[]
+
+  @@unique([name, regionId])
+}
+
+model PoliceStation {
+  id        String   @id @default(cuid())
+  name      String
+  address   String
+  phone     String?
+  latitude  Float?
+  longitude Float?
+  regionId  String
+  cityId    String?
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  region  Region  @relation(fields: [regionId], references: [id])
+  city    City?   @relation(fields: [cityId], references: [id])
+  officers PoliceProfile[]
+  cases   Case[]
+
+  @@index([regionId])
+}
+
+/// Public victim profile — police only see this, never IdentityVault
+model VictimProfile {
+  id               String                     @id @default(cuid())
+  userId           String                     @unique
+  anonymousId      String                     @unique
+  ageRange         String?
+  gender           Gender?
+  regionId         String?
+  cityId           String?
+  verificationStatus IdentityVerificationStatus @default(PENDING)
+  verifiedAt       DateTime?
+  createdAt        DateTime                   @default(now())
+  updatedAt        DateTime                   @updatedAt
+
+  user          User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  region        Region?        @relation(fields: [regionId], references: [id])
+  city          City?          @relation(fields: [cityId], references: [id])
+  identityVault     IdentityVault?
+  reports           Report[]
+  emergencyContacts EmergencyContact[]
+
+  @@index([anonymousId])
+}
+
+/// Trusted people a victim chooses to alert (with location) when they trigger an SOS
+model EmergencyContact {
+  id              String   @id @default(cuid())
+  victimProfileId String
+  name            String
+  relationship    String?
+  phone           String
+  email           String?
+  notifyOnSos     Boolean  @default(true)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  victimProfile VictimProfile @relation(fields: [victimProfileId], references: [id], onDelete: Cascade)
+
+  @@index([victimProfileId])
+}
+
+/// Encrypted PII — isolated from police queries
+model IdentityVault {
+  id                  String   @id @default(cuid())
+  victimProfileId     String   @unique
+  encryptedPayload    String   @db.Text
+  nationalIdHash      String   @unique
+  idImageKey          String?
+  selfieImageKey      String?
+  createdAt           DateTime @default(now())
+  updatedAt           DateTime @updatedAt
+
+  victimProfile VictimProfile @relation(fields: [victimProfileId], references: [id], onDelete: Cascade)
+}
+
+model PoliceProfile {
+  id              String   @id @default(cuid())
+  userId          String   @unique
+  badgeNumber     String   @unique
+  firstName       String
+  lastName        String
+  phone           String
+  stationId       String?
+  credentialKey   String?
+  approvedAt      DateTime?
+  approvedById    String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  user           User           @relation(fields: [userId], references: [id], onDelete: Cascade)
+  station        PoliceStation? @relation(fields: [stationId], references: [id])
+  assignedCases  Case[]         @relation("AssignedInvestigator")
+  chatMessages   ChatMessage[]  @relation("PoliceMessages")
+  infoRequests   InfoRequest[]
+  statusChanges  CaseStatusHistory[]
+
+  @@index([stationId])
+}
+
+model AdminProfile {
+  id        String   @id @default(cuid())
+  userId    String   @unique
+  firstName String
+  lastName  String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Report {
+  id              String         @id @default(cuid())
+  victimProfileId String
+  category        ReportCategory
+  incidentDate    DateTime
+  incidentTime    String?
+  location        String
+  description     String         @db.Text
+  abuserKnown     Boolean        @default(false)
+  abuserName      String?
+  abuserNickname  String?
+  abuserPhone     String?
+  abuserSocial    String?
+  abuserWorkplace String?
+  abuserSchool    String?
+  abuserVehicle   String?
+  abuserAddress   String?
+  abuserPhotoKey  String?
+  abuserRelation  AbuserRelationship?
+  createdAt       DateTime       @default(now())
+  updatedAt       DateTime       @updatedAt
+
+  victimProfile VictimProfile @relation(fields: [victimProfileId], references: [id], onDelete: Cascade)
+  case          Case?
+  evidence      Evidence[]
+
+  @@index([victimProfileId])
+  @@index([category])
+}
+
+model Case {
+  id              String       @id @default(cuid())
+  caseNumber      String       @unique
+  reportId        String       @unique
+  stationId       String
+  investigatorId  String?
+  status          CaseStatus   @default(SUBMITTED)
+  priority        CasePriority @default(NORMAL)
+  isUrgent        Boolean      @default(false)
+  closedAt        DateTime?
+  createdAt       DateTime     @default(now())
+  updatedAt       DateTime     @updatedAt
+
+  report         Report              @relation(fields: [reportId], references: [id], onDelete: Cascade)
+  station        PoliceStation       @relation(fields: [stationId], references: [id])
+  investigator   PoliceProfile?      @relation("AssignedInvestigator", fields: [investigatorId], references: [id])
+  statusHistory  CaseStatusHistory[]
+  chatMessages   ChatMessage[]
+  infoRequests   InfoRequest[]
+  witnessSubmissions WitnessSubmission[]
+
+  @@index([stationId, status])
+  @@index([investigatorId])
+  @@index([status])
+}
+
+model CaseStatusHistory {
+  id          String     @id @default(cuid())
+  caseId      String
+  status      CaseStatus
+  note        String?
+  changedById String?
+  createdAt   DateTime   @default(now())
+
+  case      Case           @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  changedBy PoliceProfile? @relation(fields: [changedById], references: [id])
+
+  @@index([caseId])
+}
+
+model Evidence {
+  id           String       @id @default(cuid())
+  reportId     String
+  type         EvidenceType
+  fileName     String
+  fileKey      String
+  fileSize     Int
+  mimeType     String
+  fileHash     String?
+  isEncrypted  Boolean      @default(true)
+  uploadedAt   DateTime     @default(now())
+
+  report Report @relation(fields: [reportId], references: [id], onDelete: Cascade)
+
+  @@index([reportId])
+}
+
+model ChatMessage {
+  id              String   @id @default(cuid())
+  caseId          String
+  senderRole      UserRole
+  policeProfileId String?
+  content         String   @db.Text
+  createdAt       DateTime @default(now())
+
+  case   Case           @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  police PoliceProfile? @relation("PoliceMessages", fields: [policeProfileId], references: [id])
+
+  @@index([caseId, createdAt])
+}
+
+model InfoRequest {
+  id          String            @id @default(cuid())
+  caseId      String
+  requestedBy String
+  type        InfoRequestType
+  message     String            @db.Text
+  status      InfoRequestStatus @default(PENDING)
+  createdAt   DateTime          @default(now())
+  fulfilledAt DateTime?
+
+  case      Case          @relation(fields: [caseId], references: [id], onDelete: Cascade)
+  requester PoliceProfile @relation(fields: [requestedBy], references: [id])
+
+  @@index([caseId])
+}
+
+model Notification {
+  id        String              @id @default(cuid())
+  userId    String
+  channel   NotificationChannel @default(IN_APP)
+  title     String
+  body      String
+  read      Boolean             @default(false)
+  metadata  Json?
+  createdAt DateTime            @default(now())
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId, read])
+}
+
+model WitnessSubmission {
+  id        String   @id @default(cuid())
+  caseId    String
+  statement String   @db.Text
+  audioKey  String?
+  createdAt DateTime @default(now())
+
+  case Case @relation(fields: [caseId], references: [id], onDelete: Cascade)
+
+  @@index([caseId])
+}
+
+model AuditLog {
+  id         String      @id @default(cuid())
+  userId     String?
+  action     AuditAction
+  resource   String?
+  resourceId String?
+  ipAddress  String?
+  userAgent  String?
+  metadata   Json?
+  createdAt  DateTime    @default(now())
+
+  user User? @relation(fields: [userId], references: [id], onDelete: SetNull)
+
+  @@index([userId])
+  @@index([action, createdAt])
+}
