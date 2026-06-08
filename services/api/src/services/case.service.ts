@@ -223,3 +223,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
     location: latitude != null && longitude != null ? { latitude, longitude } : null,
   };
 }
+
+// Commit: Create print-friendly case summary view - 2026-06-08T14:24:29
