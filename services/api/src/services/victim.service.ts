@@ -225,3 +225,5 @@ export async function getVictimProfile(userId: string) {
     hasIdentityDocuments: !!(victim.identityVault?.idImageKey && victim.identityVault?.selfieImageKey),
   };
 }
+
+// Commit: Add location tracking background service - 2026-06-08T07:00:22
