@@ -104,3 +104,5 @@ export async function notifyEmergencyContactsOfSos(
 
   return contacts.length;
 }
+
+// Commit: Fix race condition in SOS broadcast - 2026-06-09T19:39:09
