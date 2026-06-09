@@ -233,3 +233,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Create police dashboard with case queue - 2026-06-08T13:42:23
 
 // Commit: Add pagination to case listing endpoint - 2026-06-08T16:18:54
+
+// Commit: Create case management table with filters - 2026-06-09T23:32:42
