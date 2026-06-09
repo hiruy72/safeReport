@@ -36,3 +36,5 @@ export async function findNearestStation(
 }
 
 // Commit: Add geolocation parsing utilities - 2026-06-08T23:08:53
+
+// Commit: Implement offline mode with local cache - 2026-06-09T16:46:17
