@@ -57,3 +57,5 @@ export async function getAbuserPhoto(reportId: string, userId: string, role: str
   const buffer = await readEncryptedFile(report.abuserPhotoKey);
   return { buffer, mime: "image/jpeg", fileName: "abuser-photo.jpg" };
 }
+
+// Commit: Implement breadcrumb navigation - 2026-06-10T09:47:24
