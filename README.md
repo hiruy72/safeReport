@@ -80,3 +80,5 @@ safeHer/
 - Mobile app (Expo/React Native)
 - S3 evidence storage, email/SMS notifications
 - 2FA, witness portal, crime hotspot map
+
+<!-- Commit: Add README badges and setup instructions - 2026-06-10T15:32:29 -->
