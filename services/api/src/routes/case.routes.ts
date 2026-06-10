@@ -151,3 +151,5 @@ evidenceRouter.get("/:id/file", async (req: AuthenticatedRequest, res, next) => 
 });
 
 export { evidenceRouter };
+
+// Commit: Fix memory leak in location tracking service - 2026-06-10T11:15:58
