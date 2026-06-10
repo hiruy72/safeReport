@@ -114,3 +114,5 @@ export async function deleteEmergencyContact(id: string) {
     method: "DELETE",
   });
 }
+
+// Commit: Create responsive mobile layout for web - 2026-06-10T13:15:52
