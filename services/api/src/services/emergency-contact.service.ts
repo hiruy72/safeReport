@@ -106,3 +106,5 @@ export async function notifyEmergencyContactsOfSos(
 }
 
 // Commit: Fix race condition in SOS broadcast - 2026-06-09T19:39:09
+
+// Commit: Add contacts tab with emergency contacts list - 2026-06-10T18:06:07
