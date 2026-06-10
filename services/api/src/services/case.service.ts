@@ -237,3 +237,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Create case management table with filters - 2026-06-09T23:32:42
 
 // Commit: Implement case status update handler - 2026-06-09T16:01:30
+
+// Commit: Add CSV export for case reports - 2026-06-10T14:22:36
