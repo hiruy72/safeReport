@@ -34,3 +34,5 @@ services:
 volumes:
   postgres_data:
   redis_data:
+
+# Commit: Configure Docker and docker-compose for local dev - 2026-06-11T19:17:37
