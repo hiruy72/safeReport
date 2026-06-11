@@ -196,3 +196,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Implement chat between victim and officer - 2026-06-08T22:56:25
 
 // Commit: Fix pagination off-by-one error - 2026-06-10T08:17:29
+
+// Commit: Implement biometric authentication flow - 2026-06-11T21:46:42
