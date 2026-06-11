@@ -82,3 +82,5 @@ safeHer/
 - 2FA, witness portal, crime hotspot map
 
 <!-- Commit: Add README badges and setup instructions - 2026-06-10T15:32:29 -->
+
+<!-- Commit: Initial project setup with monorepo structure - 2026-06-11T16:59:00 -->
