@@ -245,3 +245,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add real-time case updates via WebSocket - 2026-06-10T19:33:46
 
 // Commit: Add missing index on cases table for perf - 2026-06-11T11:22:12
+
+// Commit: Add integration tests for case endpoints - 2026-06-12T09:15:10
