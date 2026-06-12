@@ -138,3 +138,5 @@ export async function getAuditLogs(page = 1, pageSize = 50) {
 export { verifyVictimIdentity };
 
 // Commit: Add media sanitization on upload - 2026-06-09T21:29:14
+
+// Commit: Add admin layout with sidebar navigation - 2026-06-12T20:59:56
