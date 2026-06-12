@@ -74,3 +74,4 @@ def cluster_suspects(
 
     result.sort(key=lambda c: (-c.report_count, -c.confidence))
     return result
+
