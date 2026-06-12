@@ -203,3 +203,5 @@ export function setStoredUser(user: unknown) {
 }
 
 export { API_URL };
+
+// Commit: Implement shared crypto utilities - 2026-06-12T20:17:03
