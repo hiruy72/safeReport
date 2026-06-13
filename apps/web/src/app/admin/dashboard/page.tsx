@@ -171,3 +171,5 @@ function StatCard({ title, value }: { title: string; value: number }) {
     </div>
   );
 }
+
+// Commit: Create notification service skeleton - 2026-06-13T13:48:04
