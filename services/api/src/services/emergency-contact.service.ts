@@ -112,3 +112,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Create emergency alert broadcasting service - 2026-06-10T08:56:25
 
 // Commit: Add ESLint and Prettier configuration - 2026-06-11T13:43:26
+
+// Commit: Implement SOS button with haptic feedback - 2026-06-13T09:17:59
