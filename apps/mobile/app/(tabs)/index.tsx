@@ -51,3 +51,5 @@ export default function HomeScreen() {
     </ScrollView>
   );
 }
+
+// Commit: Configure pnpm workspace and dependencies - 2026-06-13T18:47:39
