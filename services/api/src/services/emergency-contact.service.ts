@@ -114,3 +114,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Add ESLint and Prettier configuration - 2026-06-11T13:43:26
 
 // Commit: Implement SOS button with haptic feedback - 2026-06-13T09:17:59
+
+// Commit: Add push notification handling - 2026-06-13T10:15:57
