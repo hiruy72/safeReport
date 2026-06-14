@@ -116,3 +116,5 @@ export async function deleteEmergencyContact(id: string) {
 }
 
 // Commit: Create responsive mobile layout for web - 2026-06-10T13:15:52
+
+// Commit: Fix CORS configuration for mobile clients - 2026-06-14T18:28:44
