@@ -120,3 +120,5 @@ export async function downloadEvidenceFile(evidenceId: string, userId: string, r
 
   return { buffer, evidence };
 }
+
+// Commit: Add evidence upload with type validation - 2026-06-14T21:29:26
