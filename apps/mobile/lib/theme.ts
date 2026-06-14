@@ -69,3 +69,5 @@ export const styles = StyleSheet.create({
     marginBottom: 6,
   },
 });
+
+// Commit: Resolve TypeScript strict errors in API layer - 2026-06-14T22:37:41
