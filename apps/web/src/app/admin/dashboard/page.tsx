@@ -171,4 +171,3 @@ function StatCard({ title, value }: { title: string; value: number }) {
     </div>
   );
 }
-
