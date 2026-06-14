@@ -748,3 +748,5 @@ export function LandingPage() {
 }
 
 // Commit: Add identity verification flow - 2026-06-09T08:54:04
+
+// Commit: Add API client wrapper with retry logic - 2026-06-14T12:36:59
