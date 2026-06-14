@@ -140,3 +140,5 @@ export { verifyVictimIdentity };
 // Commit: Add media sanitization on upload - 2026-06-09T21:29:14
 
 // Commit: Add admin layout with sidebar navigation - 2026-06-12T20:59:56
+
+// Commit: Implement audit trail viewer for admin - 2026-06-14T23:59:05
