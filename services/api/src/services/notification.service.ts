@@ -135,3 +135,5 @@ export async function markAllNotificationsRead(userId: string) {
     data: { read: true },
   });
 }
+
+// Commit: Implement dark mode support - 2026-06-15T18:19:52
