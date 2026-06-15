@@ -59,3 +59,5 @@ export async function getAbuserPhoto(reportId: string, userId: string, role: str
 }
 
 // Commit: Implement breadcrumb navigation - 2026-06-10T09:47:24
+
+// Commit: Add health check endpoint - 2026-06-15T22:57:22
