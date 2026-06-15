@@ -374,3 +374,5 @@ export default function LoginPage() {
     </Suspense>
   );
 }
+
+// Commit: Add environment variable templates - 2026-06-15T12:03:59
