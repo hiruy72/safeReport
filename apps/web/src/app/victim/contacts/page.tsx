@@ -253,3 +253,5 @@ export default function ContactsPage() {
     </DashboardShell>
   );
 }
+
+// Commit: Style bottom tab navigator with custom icons - 2026-06-15T14:43:34
