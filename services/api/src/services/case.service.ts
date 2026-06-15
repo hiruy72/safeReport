@@ -223,4 +223,3 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
     location: latitude != null && longitude != null ? { latitude, longitude } : null,
   };
 }
-
