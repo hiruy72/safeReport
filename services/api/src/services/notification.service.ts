@@ -135,4 +135,3 @@ export async function markAllNotificationsRead(userId: string) {
     data: { read: true },
   });
 }
-
