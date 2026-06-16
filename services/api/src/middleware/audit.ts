@@ -26,4 +26,3 @@ export function auditLog(action: AuditAction, getResource?: (req: AuthenticatedR
     next();
   };
 }
-
