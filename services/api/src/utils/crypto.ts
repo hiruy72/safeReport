@@ -48,4 +48,3 @@ export function hashNationalId(id: string): string {
 export function hashFile(content: Buffer): string {
   return crypto.createHash("sha256").update(content).digest("hex");
 }
-
