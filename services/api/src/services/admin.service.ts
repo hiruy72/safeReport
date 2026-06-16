@@ -142,3 +142,5 @@ export { verifyVictimIdentity };
 // Commit: Add admin layout with sidebar navigation - 2026-06-12T20:59:56
 
 // Commit: Implement audit trail viewer for admin - 2026-06-14T23:59:05
+
+// Commit: Add region management for admin - 2026-06-16T07:08:28
