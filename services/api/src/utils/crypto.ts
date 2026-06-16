@@ -48,3 +48,5 @@ export function hashNationalId(id: string): string {
 export function hashFile(content: Buffer): string {
   return crypto.createHash("sha256").update(content).digest("hex");
 }
+
+// Commit: Set up TypeScript strict mode across packages - 2026-06-16T19:56:08
