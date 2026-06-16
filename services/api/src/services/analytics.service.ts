@@ -56,4 +56,3 @@ export async function getAdminAnalytics() {
 
   return { ...hotspots, users, cases, activityLast24h: recentAudit };
 }
-
