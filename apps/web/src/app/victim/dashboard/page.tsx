@@ -236,3 +236,5 @@ function VerificationBadge({ status }: { status: string }) {
     </span>
   );
 }
+
+// Commit: Add audit logging for sensitive actions - 2026-06-16T15:38:10
