@@ -160,4 +160,3 @@ export async function fulfillInfoRequest(requestId: string, userId: string) {
     data: { status: "FULFILLED", fulfilledAt: new Date() },
   });
 }
-
