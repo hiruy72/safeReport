@@ -120,3 +120,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Implement emergency contact SOS ping - 2026-06-14T09:49:17
 
 // Commit: Implement panic mode that locks to SOS screen - 2026-06-15T22:27:49
+
+// Commit: Add contact list CRUD endpoints - 2026-06-17T21:42:20
