@@ -124,4 +124,3 @@ export interface PoliceDashboardStats {
   solvedCases: number;
   averageResponseTimeHours: number;
 }
-
