@@ -212,4 +212,3 @@ router.post("/otp/verify", async (req, res, next) => {
 
 export default router;
 
-
