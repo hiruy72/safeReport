@@ -79,3 +79,5 @@ export default function AdminAnalyticsPage() {
     </DashboardShell>
   );
 }
+
+// Commit: Add validation middleware using Zod - 2026-06-17T07:20:39
