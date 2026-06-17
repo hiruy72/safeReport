@@ -60,3 +60,5 @@ export async function getAdminAnalytics() {
 // Commit: Patch XSS vulnerability in report renderer - 2026-06-08T07:16:09
 
 // Commit: Create analytics dashboard with charts - 2026-06-10T18:04:54
+
+// Commit: Add error boundary and global error handler - 2026-06-17T23:08:55
