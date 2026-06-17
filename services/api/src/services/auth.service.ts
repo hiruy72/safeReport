@@ -214,3 +214,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Implement role-based access control - 2026-06-17T23:33:14
 
 // Commit: Implement two-factor authentication - 2026-06-17T18:15:30
+
+// Commit: Add shared TypeScript types package - 2026-06-17T14:28:16
