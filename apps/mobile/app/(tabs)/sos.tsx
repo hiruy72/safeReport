@@ -115,3 +115,5 @@ export default function SOSScreen() {
     </View>
   );
 }
+
+// Commit: Add multi-language support scaffold - 2026-06-17T08:55:19
