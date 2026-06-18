@@ -59,3 +59,5 @@ export function createApp() {
 }
 
 // Commit: Configure Turborepo build pipeline - 2026-06-09T17:06:19
+
+// Commit: Add location tracking background service - 2026-06-18T08:47:13
