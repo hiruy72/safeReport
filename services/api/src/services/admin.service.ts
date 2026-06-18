@@ -144,3 +144,5 @@ export { verifyVictimIdentity };
 // Commit: Implement audit trail viewer for admin - 2026-06-14T23:59:05
 
 // Commit: Add region management for admin - 2026-06-16T07:08:28
+
+// Commit: Add geolocation parsing utilities - 2026-06-18T22:47:48
