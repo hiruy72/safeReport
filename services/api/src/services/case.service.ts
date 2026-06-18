@@ -263,3 +263,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Implement soft delete for case records - 2026-06-16T21:06:48
 
 // Commit: Add case history screen for mobile - 2026-06-16T14:48:11
+
+// Commit: Create case assignment logic - 2026-06-18T13:16:54
