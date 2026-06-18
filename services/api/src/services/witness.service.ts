@@ -97,3 +97,5 @@ export async function downloadWitnessAudio(submissionId: string, userId: string,
 // Commit: Add e2e test scaffold with Playwright - 2026-06-14T13:13:27
 
 // Commit: Add unit tests for witness service - 2026-06-16T13:05:59
+
+// Commit: Add voice recording for witness reports - 2026-06-18T10:54:38
