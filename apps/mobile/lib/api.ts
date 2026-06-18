@@ -114,3 +114,4 @@ export async function deleteEmergencyContact(id: string) {
     method: "DELETE",
   });
 }
+
