@@ -236,3 +236,4 @@ function VerificationBadge({ status }: { status: string }) {
     </span>
   );
 }
+
