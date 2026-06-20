@@ -124,3 +124,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Add contact list CRUD endpoints - 2026-06-17T21:42:20
 
 // Commit: Implement SOS trigger endpoint - 2026-06-18T22:48:34
+
+// Commit: Fix race condition in SOS broadcast - 2026-06-20T14:43:57
