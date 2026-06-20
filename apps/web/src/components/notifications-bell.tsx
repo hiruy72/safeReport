@@ -84,3 +84,5 @@ export function NotificationsBell() {
     </div>
   );
 }
+
+// Commit: Implement breadcrumb navigation - 2026-06-20T18:47:46
