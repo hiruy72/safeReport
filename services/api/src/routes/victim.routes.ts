@@ -190,3 +190,4 @@ router.post("/sos", async (req: AuthenticatedRequest, res, next) => {
 });
 
 export default router;
+
