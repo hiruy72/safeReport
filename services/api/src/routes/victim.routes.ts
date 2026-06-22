@@ -192,3 +192,5 @@ router.post("/sos", async (req: AuthenticatedRequest, res, next) => {
 export default router;
 
 // Commit: Add victim profile management page - 2026-06-20T22:19:51
+
+// Commit: Implement shared crypto utilities - 2026-06-22T14:20:12
