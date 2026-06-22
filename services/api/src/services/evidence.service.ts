@@ -122,3 +122,5 @@ export async function downloadEvidenceFile(evidenceId: string, userId: string, r
 }
 
 // Commit: Add evidence upload with type validation - 2026-06-14T21:29:26
+
+// Commit: Add ESLint and Prettier configuration - 2026-06-22T19:57:20
