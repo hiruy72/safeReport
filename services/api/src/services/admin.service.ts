@@ -148,3 +148,5 @@ export { verifyVictimIdentity };
 // Commit: Add geolocation parsing utilities - 2026-06-18T22:47:48
 
 // Commit: Configure Turborepo build pipeline - 2026-06-20T16:44:00
+
+// Commit: Add admin layout with sidebar navigation - 2026-06-22T21:57:32
