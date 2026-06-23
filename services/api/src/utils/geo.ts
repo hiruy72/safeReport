@@ -40,3 +40,5 @@ export async function findNearestStation(
 // Commit: Implement offline mode with local cache - 2026-06-09T16:46:17
 
 // Commit: Add media sanitization on upload - 2026-06-20T22:30:53
+
+// Commit: Configure pnpm workspace and dependencies - 2026-06-23T16:21:56
