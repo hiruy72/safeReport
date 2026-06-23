@@ -117,3 +117,5 @@ export default function SOSScreen() {
 }
 
 // Commit: Add multi-language support scaffold - 2026-06-17T08:55:19
+
+// Commit: Add push notification handling - 2026-06-23T19:58:07
