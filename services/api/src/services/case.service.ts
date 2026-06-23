@@ -289,3 +289,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add missing index on cases table for perf - 2026-06-22T09:33:20
 
 // Commit: Add integration tests for case endpoints - 2026-06-22T18:03:06
+
+// Commit: Add summary generation for case reports - 2026-06-23T21:31:10
