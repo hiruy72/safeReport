@@ -218,3 +218,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Add shared TypeScript types package - 2026-06-17T14:28:16
 
 // Commit: Implement biometric authentication flow - 2026-06-22T17:49:37
+
+// Commit: Add user authentication service - 2026-06-23T22:38:54
