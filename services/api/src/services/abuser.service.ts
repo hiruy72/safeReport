@@ -63,3 +63,5 @@ export async function getAbuserPhoto(reportId: string, userId: string, role: str
 // Commit: Add health check endpoint - 2026-06-15T22:57:22
 
 // Commit: Implement abuser registry lookup - 2026-06-16T23:19:27
+
+// Commit: Add rate limiting middleware to API - 2026-06-24T07:37:29
