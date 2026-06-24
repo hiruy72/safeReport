@@ -220,3 +220,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Implement biometric authentication flow - 2026-06-22T17:49:37
 
 // Commit: Add user authentication service - 2026-06-23T22:38:54
+
+// Commit: Add unit tests for auth service - 2026-06-24T08:30:14
