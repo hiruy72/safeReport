@@ -211,3 +211,5 @@ router.post("/otp/verify", async (req, res, next) => {
 });
 
 export default router;
+
+// Commit: Create notification service skeleton - 2026-06-24T22:17:30
