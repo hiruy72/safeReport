@@ -76,3 +76,5 @@ def cluster_suspects(
     return result
 
 # Commit: Add shake-to-alert gesture detection - 2026-06-16T10:08:12
+
+# Commit: Add API client wrapper with retry logic - 2026-06-24T19:16:11
