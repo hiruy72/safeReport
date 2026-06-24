@@ -150,3 +150,5 @@ export { verifyVictimIdentity };
 // Commit: Configure Turborepo build pipeline - 2026-06-20T16:44:00
 
 // Commit: Add admin layout with sidebar navigation - 2026-06-22T21:57:32
+
+// Commit: Implement audit trail viewer for admin - 2026-06-24T08:03:34
