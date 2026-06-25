@@ -225,4 +225,3 @@ export async function getVictimProfile(userId: string) {
     hasIdentityDocuments: !!(victim.identityVault?.idImageKey && victim.identityVault?.selfieImageKey),
   };
 }
-
