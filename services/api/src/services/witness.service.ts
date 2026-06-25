@@ -85,4 +85,3 @@ export async function downloadWitnessAudio(submissionId: string, userId: string,
   const buffer = await readEncryptedFile(submission.audioKey);
   return { buffer, mime: "audio/mpeg", fileName: "witness-audio.mp3" };
 }
-
