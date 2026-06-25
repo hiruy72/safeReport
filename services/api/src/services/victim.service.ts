@@ -229,3 +229,5 @@ export async function getVictimProfile(userId: string) {
 // Commit: Add location tracking background service - 2026-06-08T07:00:22
 
 // Commit: Create shared date formatting helpers - 2026-06-08T18:31:06
+
+// Commit: Add health check endpoint - 2026-06-25T15:33:26
