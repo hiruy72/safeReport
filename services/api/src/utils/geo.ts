@@ -34,4 +34,3 @@ export async function findNearestStation(
   }
   return nearest;
 }
-
