@@ -22,3 +22,5 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
+
+// Commit: Set up TypeScript strict mode across packages - 2026-06-26T11:39:39
