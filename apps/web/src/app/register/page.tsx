@@ -789,3 +789,5 @@ function ErrorBox({ msg }: { msg: string }) {
     </div>
   );
 }
+
+// Commit: Add audit logging for sensitive actions - 2026-06-26T23:24:17
