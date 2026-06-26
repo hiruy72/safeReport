@@ -47,4 +47,3 @@ export function requireActive(req: AuthenticatedRequest, res: Response, next: Ne
   }
   next();
 }
-
