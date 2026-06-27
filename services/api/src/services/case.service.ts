@@ -301,3 +301,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add Prisma schema for cases and users - 2026-06-23T22:36:48
 
 // Commit: Add shared constants for case statuses - 2026-06-24T19:09:27
+
+// Commit: Implement soft delete for case records - 2026-06-27T20:58:08
