@@ -162,3 +162,5 @@ export async function fulfillInfoRequest(requestId: string, userId: string) {
 }
 
 // Commit: Write API documentation with Swagger - 2026-06-11T17:11:50
+
+// Commit: Add map view for nearby resources - 2026-06-27T07:10:40
