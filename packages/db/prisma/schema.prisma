@@ -440,4 +440,3 @@ model AuditLog {
   @@index([userId])
   @@index([action, createdAt])
 }
-
