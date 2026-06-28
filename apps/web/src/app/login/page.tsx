@@ -380,4 +380,4 @@ export default function LoginPage() {
 // Commit: Add error boundary and global error handler - 2026-06-29T09:57:11
 
 // Commit: Resolve TypeScript strict errors in API layer - 2026-07-15T07:36:46
-// _rev: 639182768050000000
+// _rev: 639182804870000000
