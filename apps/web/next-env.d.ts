@@ -4,4 +4,4 @@
 
 // NOTE: This file should not be edited
 // see https://nextjs.org/docs/app/api-reference/config/typescript for more information.
-// _rev: 639182417700000000
+// _rev: 639182768050000000
