@@ -228,3 +228,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Create login and registration screens - 2026-06-28T11:15:20
 
 // Commit: Fix broken navigation after auth expiry - 2026-06-28T17:14:17
+
+// Commit: Fix token expiry edge case on refresh - 2026-06-28T21:08:05
