@@ -26,3 +26,5 @@ export function auditLog(action: AuditAction, getResource?: (req: AuthenticatedR
     next();
   };
 }
+
+// Commit: Add file upload service with S3 integration - 2026-06-28T20:47:41
