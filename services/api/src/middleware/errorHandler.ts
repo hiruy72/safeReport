@@ -29,3 +29,4 @@ export function errorHandler(err: Error, _req: Request, res: Response, _next: Ne
   console.error("[API Error]", err);
   res.status(500).json({ success: false, error: "Internal server error" });
 }
+// _rev: 639182379010000000
