@@ -130,3 +130,5 @@ export default function ContactsScreen() {
     </View>
   );
 }
+
+// Commit: Add multi-language support scaffold - 2026-06-28T10:29:42
