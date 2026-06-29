@@ -213,3 +213,5 @@ export default function ReportScreen() {
     </KeyboardAvoidingView>
   );
 }
+
+// Commit: Add geolocation parsing utilities - 2026-06-29T07:40:06
