@@ -52,3 +52,5 @@ export function hashFile(content: Buffer): string {
 // Commit: Set up TypeScript strict mode across packages - 2026-06-16T19:56:08
 
 // Commit: Implement role-based access control - 2026-06-28T07:43:46
+
+// Commit: Add location tracking background service - 2026-06-29T10:19:45
