@@ -319,3 +319,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add pagination to case listing endpoint - 2026-06-30T16:55:42
 
 // Commit: Create case management table with filters - 2026-06-30T20:05:32
+
+// Commit: Implement case status update handler - 2026-06-30T07:41:47
