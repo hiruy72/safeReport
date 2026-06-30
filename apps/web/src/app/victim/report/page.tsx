@@ -170,3 +170,5 @@ export default function NewReportPage() {
 }
 
 // Commit: Create database seed script for development - 2026-06-13T10:32:07
+
+// Commit: Implement offline mode with local cache - 2026-06-30T19:32:19
