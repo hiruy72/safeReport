@@ -448,3 +448,5 @@ model AuditLog {
 // Commit: Create database migration for users table - 2026-06-19T22:14:20
 
 // Commit: Add shared validation schemas - 2026-06-29T13:32:08
+
+// Commit: Create database migration for users table - 2026-06-30T15:09:36
