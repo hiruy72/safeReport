@@ -115,3 +115,5 @@ export default function PoliceDashboard() {
 }
 
 // Commit: Implement chat between victim and officer - 2026-06-30T15:50:00
+
+// Commit: Add victim profile management page - 2026-07-01T10:01:03
