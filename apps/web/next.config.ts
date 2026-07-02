@@ -7,4 +7,4 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-// _rev: 639185331090000000
+// _rev: 639186003050000000
