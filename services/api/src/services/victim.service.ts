@@ -231,3 +231,5 @@ export async function getVictimProfile(userId: string) {
 // Commit: Create shared date formatting helpers - 2026-06-08T18:31:06
 
 // Commit: Add health check endpoint - 2026-06-25T15:33:26
+
+// Commit: Add ESLint and Prettier configuration - 2026-07-02T09:03:10
