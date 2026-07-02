@@ -242,3 +242,4 @@ function VerificationBadge({ status }: { status: string }) {
 // Commit: Add map view for nearby resources - 2026-06-17T11:55:36
 
 // Commit: Add environment variable templates - 2026-07-04T23:03:40
+// _rev: 639185811250000000
