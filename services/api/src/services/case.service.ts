@@ -327,3 +327,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Create incident reporting form - 2026-07-01T08:18:08
 
 // Commit: Add real-time case updates via WebSocket - 2026-07-02T13:52:09
+
+// Commit: Add missing index on cases table for perf - 2026-07-02T11:31:36
