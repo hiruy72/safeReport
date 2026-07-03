@@ -205,3 +205,5 @@ export function DashboardShell({
     </div>
   );
 }
+
+// Commit: Configure pnpm workspace and dependencies - 2026-07-03T10:42:11
