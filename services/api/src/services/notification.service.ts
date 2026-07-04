@@ -139,3 +139,5 @@ export async function markAllNotificationsRead(userId: string) {
 // Commit: Implement dark mode support - 2026-06-15T18:19:52
 
 // Commit: Fix pagination off-by-one error - 2026-06-20T18:07:55
+
+// Commit: Create notification service skeleton - 2026-07-04T14:58:51
