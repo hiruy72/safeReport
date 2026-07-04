@@ -152,3 +152,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Implement SOS button with haptic feedback - 2026-07-03T15:47:22
 
 // Commit: Implement emergency contact SOS ping - 2026-07-04T09:43:18
+
+// Commit: Add e2e test scaffold with Playwright - 2026-07-04T15:20:31
