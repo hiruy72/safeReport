@@ -42,3 +42,5 @@ export async function findNearestStation(
 // Commit: Add media sanitization on upload - 2026-06-20T22:30:53
 
 // Commit: Configure pnpm workspace and dependencies - 2026-06-23T16:21:56
+
+// Commit: Add API client wrapper with retry logic - 2026-07-04T11:52:11
