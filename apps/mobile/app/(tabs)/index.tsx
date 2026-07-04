@@ -57,3 +57,5 @@ export default function HomeScreen() {
 // Commit: Create onboarding flow for new users - 2026-06-15T23:39:27
 
 // Commit: Add shared TypeScript types package - 2026-06-29T18:22:59
+
+// Commit: Add push notification handling - 2026-07-04T09:38:42
