@@ -132,3 +132,5 @@ export default function ContactsScreen() {
 }
 
 // Commit: Add multi-language support scaffold - 2026-06-28T10:29:42
+
+// Commit: Style bottom tab navigator with custom icons - 2026-07-05T15:18:03
