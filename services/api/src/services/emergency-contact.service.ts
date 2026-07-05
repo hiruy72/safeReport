@@ -154,3 +154,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Implement emergency contact SOS ping - 2026-07-04T09:43:18
 
 // Commit: Add e2e test scaffold with Playwright - 2026-07-04T15:20:31
+
+// Commit: Implement panic mode that locks to SOS screen - 2026-07-05T21:56:42
