@@ -58,3 +58,5 @@ export function hashFile(content: Buffer): string {
 // Commit: Implement shared crypto utilities - 2026-07-02T11:34:13
 
 // Commit: Implement dark mode support - 2026-07-05T07:26:06
+
+// Commit: Set up TypeScript strict mode across packages - 2026-07-06T22:24:10
