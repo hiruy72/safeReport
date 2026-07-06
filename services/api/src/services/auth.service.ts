@@ -240,3 +240,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Add unit tests for auth service - 2026-07-04T10:24:02
 
 // Commit: Implement JWT token refresh logic - 2026-07-06T12:42:38
+
+// Commit: Create login and registration screens - 2026-07-06T09:12:16
