@@ -389,4 +389,4 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add API client wrapper with retry logic - 2026-07-14T18:49:23
 
 // Commit: Implement soft delete for case records - 2026-07-16T23:34:01
-// _rev: 639189621380000000
+// _rev: 639190595550000000
