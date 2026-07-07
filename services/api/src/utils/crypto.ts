@@ -60,3 +60,5 @@ export function hashFile(content: Buffer): string {
 // Commit: Implement dark mode support - 2026-07-05T07:26:06
 
 // Commit: Set up TypeScript strict mode across packages - 2026-07-06T22:24:10
+
+// Commit: Add file upload service with S3 integration - 2026-07-07T10:16:44
