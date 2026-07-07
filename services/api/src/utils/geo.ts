@@ -44,3 +44,5 @@ export async function findNearestStation(
 // Commit: Configure pnpm workspace and dependencies - 2026-06-23T16:21:56
 
 // Commit: Add API client wrapper with retry logic - 2026-07-04T11:52:11
+
+// Commit: Implement role-based access control - 2026-07-07T13:46:51
