@@ -119,3 +119,5 @@ export default function PoliceDashboard() {
 // Commit: Add victim profile management page - 2026-07-01T10:01:03
 
 // Commit: Fix pagination off-by-one error - 2026-07-01T21:07:47
+
+// Commit: Add shared TypeScript types package - 2026-07-07T23:47:22
