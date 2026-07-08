@@ -117,3 +117,5 @@ export async function downloadWitnessAudio(submissionId: string, userId: string,
 // Commit: Create witness anonymity protection layer - 2026-07-03T16:28:30
 
 // Commit: Add unit tests for witness service - 2026-07-06T11:45:26
+
+// Commit: Add voice recording for witness reports - 2026-07-08T08:15:35
