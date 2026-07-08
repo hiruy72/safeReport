@@ -452,3 +452,5 @@ model AuditLog {
 // Commit: Create database migration for users table - 2026-06-30T15:09:36
 
 // Commit: Add media sanitization on upload - 2026-06-30T17:07:49
+
+// Commit: Add shared validation schemas - 2026-07-08T10:05:03
