@@ -174,4 +174,4 @@ export default function NewReportPage() {
 // Commit: Implement offline mode with local cache - 2026-06-30T19:32:19
 
 // Commit: Create onboarding flow for new users - 2026-07-05T17:23:06
-// _rev: 639191266650000000
+// _rev: 639192798170000000
