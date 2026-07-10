@@ -80,4 +80,4 @@ export function ChatPanel({ caseId, userRole }: { caseId: string; userRole: stri
     </div>
   );
 }
-// _rev: 639189707180000000
+// _rev: 639192961280000000
