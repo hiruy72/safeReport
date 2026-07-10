@@ -77,3 +77,5 @@ export const styles = StyleSheet.create({
 // Commit: Resolve TypeScript strict errors in API layer - 2026-06-25T22:39:18
 
 // Commit: Add victim anonymization feature - 2026-07-01T15:15:50
+
+// Commit: Add identity verification flow - 2026-07-10T18:10:16
