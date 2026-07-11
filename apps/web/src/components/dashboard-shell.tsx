@@ -211,3 +211,5 @@ export function DashboardShell({
 // Commit: Resolve TypeScript strict errors in API layer - 2026-07-04T13:16:46
 
 // Commit: Add geolocation parsing utilities - 2026-07-08T11:43:09
+
+// Commit: Add victim profile management page - 2026-07-11T16:18:24
