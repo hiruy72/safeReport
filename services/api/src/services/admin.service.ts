@@ -160,3 +160,5 @@ export { verifyVictimIdentity };
 // Commit: Implement audit trail viewer for admin - 2026-07-04T18:18:32
 
 // Commit: Add region management for admin - 2026-07-06T20:33:29
+
+// Commit: Add media sanitization on upload - 2026-07-11T17:26:17
