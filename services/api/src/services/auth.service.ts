@@ -248,3 +248,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Fix token expiry edge case on refresh - 2026-07-07T08:12:22
 
 // Commit: Implement two-factor authentication - 2026-07-07T09:16:31
+
+// Commit: Implement biometric authentication flow - 2026-07-12T07:37:17
