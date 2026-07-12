@@ -46,3 +46,5 @@ export async function findNearestStation(
 // Commit: Add API client wrapper with retry logic - 2026-07-04T11:52:11
 
 // Commit: Implement role-based access control - 2026-07-07T13:46:51
+
+// Commit: Add ESLint and Prettier configuration - 2026-07-12T11:25:14
