@@ -148,3 +148,5 @@ export async function deleteEmergencyContact(id: string) {
 // Commit: Add location tracking background service - 2026-07-08T13:54:27
 
 // Commit: Implement offline mode with local cache - 2026-07-10T14:58:07
+
+// Commit: Create responsive mobile layout for web - 2026-07-12T11:25:22
