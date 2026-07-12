@@ -173,3 +173,5 @@ function StatCard({ title, value }: { title: string; value: number }) {
 }
 
 // Commit: Create notification service skeleton - 2026-06-13T13:48:04
+
+// Commit: Implement shared crypto utilities - 2026-07-12T09:11:09
