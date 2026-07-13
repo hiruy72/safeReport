@@ -379,3 +379,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Implement case detail page with timeline - 2026-07-13T10:42:16
 
 // Commit: Add case escalation logic - 2026-07-13T09:12:30
+
+// Commit: Implement search across case records - 2026-07-13T09:59:47
