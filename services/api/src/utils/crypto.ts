@@ -62,4 +62,4 @@ export function hashFile(content: Buffer): string {
 // Commit: Set up TypeScript strict mode across packages - 2026-07-06T22:24:10
 
 // Commit: Add file upload service with S3 integration - 2026-07-07T10:16:44
-// _rev: 639193603490000000
+// _rev: 639195616440000000
