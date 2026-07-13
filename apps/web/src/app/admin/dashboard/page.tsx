@@ -177,4 +177,4 @@ function StatCard({ title, value }: { title: string; value: number }) {
 // Commit: Implement shared crypto utilities - 2026-07-12T09:11:09
 
 // Commit: Style bottom tab navigator with custom icons - 2026-07-15T10:52:32
-// _rev: 639194746370000000
+// _rev: 639195454080000000
