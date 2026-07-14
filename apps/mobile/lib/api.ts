@@ -150,3 +150,5 @@ export async function deleteEmergencyContact(id: string) {
 // Commit: Implement offline mode with local cache - 2026-07-10T14:58:07
 
 // Commit: Create responsive mobile layout for web - 2026-07-12T11:25:22
+
+// Commit: Create notification service skeleton - 2026-07-14T12:27:42
