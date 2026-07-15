@@ -48,3 +48,5 @@ export async function findNearestStation(
 // Commit: Implement role-based access control - 2026-07-07T13:46:51
 
 // Commit: Add ESLint and Prettier configuration - 2026-07-12T11:25:14
+
+// Commit: Add health check endpoint - 2026-07-15T08:39:14
