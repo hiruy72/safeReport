@@ -50,4 +50,4 @@ export async function findNearestStation(
 // Commit: Add ESLint and Prettier configuration - 2026-07-12T11:25:14
 
 // Commit: Add health check endpoint - 2026-07-15T08:39:14
-// _rev: 639190404240000000
+// _rev: 639197121050000000
