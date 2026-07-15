@@ -170,3 +170,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Implement SOS button with haptic feedback - 2026-07-14T17:38:26
 
 // Commit: Implement emergency contact SOS ping - 2026-07-15T22:34:23
+
+// Commit: Add environment variable templates - 2026-07-15T23:03:24
