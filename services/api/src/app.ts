@@ -65,4 +65,4 @@ export function createApp() {
 // Commit: Implement breadcrumb navigation - 2026-06-30T18:46:50
 
 // Commit: Add rate limiting middleware to API - 2026-07-04T23:59:41
-// _rev: 639196446020000000
+// _rev: 639197223440000000

@@ -39,4 +39,4 @@ export function getRefreshExpiry(): Date {
 // Commit: Create common UI components library - 2026-06-17T14:27:58
 
 // Commit: Add error boundary and global error handler - 2026-07-07T12:36:17
-// _rev: 639195438380000000
+// _rev: 639197223440000000
