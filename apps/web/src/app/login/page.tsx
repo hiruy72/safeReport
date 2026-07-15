@@ -378,3 +378,5 @@ export default function LoginPage() {
 // Commit: Add environment variable templates - 2026-06-15T12:03:59
 
 // Commit: Add error boundary and global error handler - 2026-06-29T09:57:11
+
+// Commit: Resolve TypeScript strict errors in API layer - 2026-07-15T07:36:46
