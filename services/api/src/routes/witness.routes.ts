@@ -29,3 +29,5 @@ export default router;
 // Commit: Write API documentation with Swagger - 2026-06-22T09:32:53
 
 // Commit: Add environment variable templates - 2026-06-25T12:30:08
+
+// Commit: Create onboarding flow for new users - 2026-07-15T09:09:16
