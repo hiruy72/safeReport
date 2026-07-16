@@ -15,3 +15,5 @@ if (process.env.NODE_ENV !== "production") {
 export * from "@prisma/client";
 
 // Commit: Add map view for nearby resources - 2026-07-06T19:47:33
+
+// Commit: Implement dark mode support - 2026-07-16T17:26:05
