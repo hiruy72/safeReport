@@ -387,3 +387,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add shared constants for case statuses - 2026-07-14T20:50:40
 
 // Commit: Add API client wrapper with retry logic - 2026-07-14T18:49:23
+
+// Commit: Implement soft delete for case records - 2026-07-16T23:34:01
