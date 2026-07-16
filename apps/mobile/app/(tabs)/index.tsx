@@ -59,3 +59,5 @@ export default function HomeScreen() {
 // Commit: Add shared TypeScript types package - 2026-06-29T18:22:59
 
 // Commit: Add push notification handling - 2026-07-04T09:38:42
+
+// Commit: Add shake-to-alert gesture detection - 2026-07-16T14:38:32
