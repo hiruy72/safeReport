@@ -61,4 +61,4 @@ export default function HomeScreen() {
 // Commit: Add push notification handling - 2026-07-04T09:38:42
 
 // Commit: Add shake-to-alert gesture detection - 2026-07-16T14:38:32
-// _rev: 639192793970000000
+// _rev: 639198304970000000
