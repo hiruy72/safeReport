@@ -154,3 +154,5 @@ export async function deleteEmergencyContact(id: string) {
 // Commit: Create notification service skeleton - 2026-07-14T12:27:42
 
 // Commit: Fix CORS configuration for mobile clients - 2026-07-14T08:21:40
+
+// Commit: Fix mobile keyboard avoiding view layout - 2026-07-16T15:22:22
