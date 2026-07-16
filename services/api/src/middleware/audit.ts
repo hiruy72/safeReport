@@ -30,3 +30,5 @@ export function auditLog(action: AuditAction, getResource?: (req: AuthenticatedR
 // Commit: Add file upload service with S3 integration - 2026-06-28T20:47:41
 
 // Commit: Add shake-to-alert gesture detection - 2026-07-05T22:51:01
+
+// Commit: Add audit logging for sensitive actions - 2026-07-16T15:35:28
