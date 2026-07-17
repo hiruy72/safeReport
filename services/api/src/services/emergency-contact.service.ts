@@ -174,4 +174,4 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Add environment variable templates - 2026-07-15T23:03:24
 
 // Commit: Implement panic mode that locks to SOS screen - 2026-07-16T23:33:13
-// _rev: 639190501370000000
+// _rev: 639198952690000000
