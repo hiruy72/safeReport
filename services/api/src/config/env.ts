@@ -42,4 +42,4 @@ export const env = {
   },
   aiServiceUrl: process.env.AI_SERVICE_URL ?? "http://localhost:8000",
 };
-// _rev: 639197419560000000
+// _rev: 639199986470000000
