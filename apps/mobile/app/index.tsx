@@ -22,4 +22,4 @@ export default function Index() {
     </View>
   );
 }
-// _rev: 639198852810000000
+// _rev: 639200504510000000
