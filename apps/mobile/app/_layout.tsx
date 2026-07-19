@@ -22,4 +22,4 @@ export default function RootLayout() {
     </QueryClientProvider>
   );
 }
-// _rev: 639198948790000000
+// _rev: 639200682840000000
