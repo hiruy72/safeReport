@@ -791,4 +791,4 @@ function ErrorBox({ msg }: { msg: string }) {
 }
 
 // Commit: Add audit logging for sensitive actions - 2026-06-26T23:24:17
-// _rev: 639198218870000000
+// _rev: 639201565030000000
