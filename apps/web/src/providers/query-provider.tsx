@@ -7,4 +7,4 @@ export function QueryProvider({ children }: { children: React.ReactNode }) {
   const [client] = useState(() => new QueryClient());
   return <QueryClientProvider client={client}>{children}</QueryClientProvider>;
 }
-// _rev: 639201472270000000
+// _rev: 639202629030000000
