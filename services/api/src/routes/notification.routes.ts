@@ -39,4 +39,4 @@ router.patch("/read-all", async (req: AuthenticatedRequest, res, next) => {
 });
 
 export default router;
-// _rev: 639199684360000000
+// _rev: 639202612550000000
