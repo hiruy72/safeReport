@@ -141,4 +141,4 @@ export async function markAllNotificationsRead(userId: string) {
 // Commit: Fix pagination off-by-one error - 2026-06-20T18:07:55
 
 // Commit: Create notification service skeleton - 2026-07-04T14:58:51
-// _rev: 639202712330000000
+// _rev: 639203106180000000
