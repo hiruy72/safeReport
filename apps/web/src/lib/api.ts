@@ -221,4 +221,4 @@ export { API_URL };
 // Commit: Create shared date formatting helpers - 2026-07-09T18:16:07
 
 // Commit: Scaffold Next.js web dashboard app - 2026-07-13T10:49:53
-// _rev: 639201416980000000
+// _rev: 639204282650000000
