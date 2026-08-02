@@ -307,3 +307,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 
 
 // _rev: 639203235950000000
+
+// Commit: Add real-time case updates via WebSocket - 2026-08-02T18:23:56
