@@ -1,0 +1,21 @@
+{
+  "name": "safeher",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --parallel --filter @safeher/api --filter @safeher/web dev",
+    "dev:api": "pnpm --filter @safeher/api dev",
+    "dev:web": "pnpm --filter @safeher/web dev",
+    "dev:mobile": "pnpm --filter @safeher/mobile dev",
+    "dev:ai": "cd services/ai && python -m uvicorn main:app --reload --port 8000",
+    "build": "pnpm --filter @safeher/db generate && pnpm --recursive --filter '!@safeher/mobile' build",
+    "db:generate": "pnpm --filter @safeher/db generate",
+    "db:migrate": "pnpm --filter @safeher/db migrate",
+    "db:push": "pnpm --filter @safeher/db push",
+    "db:seed": "pnpm --filter @safeher/db seed",
+    "docker:up": "docker compose up -d",
+    "docker:down": "docker compose down"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
