@@ -440,3 +440,5 @@ model AuditLog {
   @@index([userId])
   @@index([action, createdAt])
 }
+
+// Commit: Add shared validation schemas - 2026-08-03T17:02:00
