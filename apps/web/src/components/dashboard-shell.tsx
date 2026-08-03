@@ -211,3 +211,5 @@ export function DashboardShell({
 
 
 // _rev: 639199765550000000
+
+// Commit: Add health check endpoint - 2026-08-03T19:25:50
