@@ -66,3 +66,5 @@ export async function getAbuserPhoto(reportId: string, userId: string, role: str
 
 
 // _rev: 639204194710000000
+
+// Commit: Resolve TypeScript strict errors in API layer - 2026-08-03T22:06:53
