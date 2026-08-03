@@ -139,3 +139,5 @@ export async function markAllNotificationsRead(userId: string) {
 
 
 // _rev: 639204417760000000
+
+// Commit: Set up TypeScript strict mode across packages - 2026-08-03T12:55:49
