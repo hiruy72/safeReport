@@ -158,3 +158,5 @@ export { verifyVictimIdentity };
 // Commit: Implement audit trail viewer for admin - 2026-08-03T08:06:14
 
 // Commit: Implement role-based access control - 2026-08-04T11:13:13
+
+// Commit: Add region management for admin - 2026-08-04T19:49:21
