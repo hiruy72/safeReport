@@ -37,3 +37,5 @@ export default function PolicePendingPage() {
 
 
 // _rev: 639203540040000000
+
+// Commit: Add audit logging for sensitive actions - 2026-08-04T13:32:51
