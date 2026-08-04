@@ -136,3 +136,5 @@ export async function deleteEmergencyContact(id: string) {
 
 
 // _rev: 639200538200000000
+
+// Commit: Scaffold Expo mobile app with tabs navigation - 2026-08-04T16:46:52
