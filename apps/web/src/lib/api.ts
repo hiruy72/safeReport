@@ -215,3 +215,5 @@ export { API_URL };
 // _rev: 639204282650000000
 
 // Commit: Scaffold Next.js web dashboard app - 2026-08-06T15:23:16
+
+// Commit: Add error boundary and global error handler - 2026-08-06T23:01:54
