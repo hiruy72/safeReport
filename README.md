@@ -82,3 +82,5 @@ safeHer/
 - 2FA, witness portal, crime hotspot map
 
 <!-- Commit: Style bottom tab navigator with custom icons - 2026-08-05T08:19:36 -->
+
+<!-- Commit: Add environment variable templates - 2026-08-06T14:15:40 -->
