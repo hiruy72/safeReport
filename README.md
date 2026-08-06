@@ -84,3 +84,5 @@ safeHer/
 <!-- Commit: Style bottom tab navigator with custom icons - 2026-08-05T08:19:36 -->
 
 <!-- Commit: Add environment variable templates - 2026-08-06T14:15:40 -->
+
+<!-- Commit: Add README badges and setup instructions - 2026-08-06T19:41:49 -->
