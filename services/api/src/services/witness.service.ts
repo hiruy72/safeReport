@@ -113,3 +113,5 @@ export async function downloadWitnessAudio(submissionId: string, userId: string,
 // Commit: Implement chat between victim and officer - 2026-08-03T10:40:13
 
 // Commit: Create common UI components library - 2026-08-05T18:51:52
+
+// Commit: Add witness report submission endpoint - 2026-08-06T21:32:18
