@@ -234,3 +234,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Implement biometric authentication flow - 2026-08-05T07:15:24
 
 // Commit: Fix broken navigation after auth expiry - 2026-08-05T19:29:15
+
+// Commit: Create login and registration screens - 2026-08-07T23:27:30
