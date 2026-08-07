@@ -39,3 +39,5 @@ export default function PolicePendingPage() {
 // _rev: 639203540040000000
 
 // Commit: Add audit logging for sensitive actions - 2026-08-04T13:32:51
+
+// Commit: Write API documentation with Swagger - 2026-08-07T11:53:21
