@@ -86,3 +86,5 @@ safeHer/
 <!-- Commit: Add environment variable templates - 2026-08-06T14:15:40 -->
 
 <!-- Commit: Add README badges and setup instructions - 2026-08-06T19:41:49 -->
+
+<!-- Commit: Initial project setup with monorepo structure - 2026-08-07T15:59:26 -->
