@@ -166,3 +166,5 @@ export async function fulfillInfoRequest(requestId: string, userId: string) {
 // _rev: 639202612550000000
 
 // Commit: Fix pagination off-by-one error - 2026-08-05T17:36:05
+
+// Commit: Add victim anonymization feature - 2026-08-08T07:19:33
