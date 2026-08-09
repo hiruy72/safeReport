@@ -325,3 +325,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Create print-friendly case summary view - 2026-08-07T21:45:48
 
 // Commit: Optimize database query for case search - 2026-08-09T13:41:33
+
+// Commit: Add CSV export for case reports - 2026-08-09T12:27:39
