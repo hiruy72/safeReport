@@ -162,3 +162,5 @@ export { verifyVictimIdentity };
 // Commit: Add region management for admin - 2026-08-04T19:49:21
 
 // Commit: Add media sanitization on upload - 2026-08-05T18:10:04
+
+// Commit: Add admin layout with sidebar navigation - 2026-08-10T15:17:35
