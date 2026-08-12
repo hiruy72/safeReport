@@ -136,3 +136,5 @@ export async function downloadEvidenceFile(evidenceId: string, userId: string, r
 // Commit: Add evidence upload with type validation - 2026-08-07T21:14:42
 
 // Commit: Implement offline mode with local cache - 2026-08-11T23:45:24
+
+// Commit: Add API client wrapper with retry logic - 2026-08-12T12:25:09
