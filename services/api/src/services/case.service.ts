@@ -345,3 +345,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Create incident reporting form - 2026-08-12T14:23:03
 
 // Commit: Add missing index on cases table for perf - 2026-08-12T14:32:22
+
+// Commit: Add shared constants for case statuses - 2026-08-12T17:06:01
