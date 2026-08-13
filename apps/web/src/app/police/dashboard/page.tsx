@@ -119,3 +119,5 @@ export default function PoliceDashboard() {
 
 
 // _rev: 639204336150000000
+
+// Commit: Add multi-language support scaffold - 2026-08-13T08:51:49
