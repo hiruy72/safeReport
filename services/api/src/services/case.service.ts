@@ -349,3 +349,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add shared constants for case statuses - 2026-08-12T17:06:01
 
 // Commit: Create case management table with filters - 2026-08-13T13:02:51
+
+// Commit: Add real-time case updates via WebSocket - 2026-08-13T15:24:33
