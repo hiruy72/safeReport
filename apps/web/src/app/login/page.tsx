@@ -380,3 +380,5 @@ export default function LoginPage() {
 // _rev: 639202559900000000
 
 // Commit: Fix memory leak in location tracking service - 2026-08-03T22:29:19
+
+// Commit: Set up TypeScript strict mode across packages - 2026-08-13T15:15:44
