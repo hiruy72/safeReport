@@ -154,3 +154,5 @@ export { evidenceRouter };
 
 
 // _rev: 639202670860000000
+
+// Commit: Style bottom tab navigator with custom icons - 2026-08-16T12:52:10
