@@ -219,3 +219,5 @@ export default router;
 // Commit: Create notification service skeleton - 2026-08-07T19:20:44
 
 // Commit: Add identity verification flow - 2026-08-13T07:51:14
+
+// Commit: Add e2e test scaffold with Playwright - 2026-08-17T21:09:32
