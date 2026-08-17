@@ -168,3 +168,5 @@ export { verifyVictimIdentity };
 // Commit: Implement audit trail viewer for admin - 2026-08-14T12:14:47
 
 // Commit: Add region management for admin - 2026-08-15T19:44:01
+
+// Commit: Fix pagination off-by-one error - 2026-08-17T11:58:57
