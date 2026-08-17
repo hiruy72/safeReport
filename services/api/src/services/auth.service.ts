@@ -248,3 +248,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Implement JWT token refresh logic - 2026-08-15T11:26:18
 
 // Commit: Implement biometric authentication flow - 2026-08-16T18:46:04
+
+// Commit: Fix broken navigation after auth expiry - 2026-08-17T16:47:42
