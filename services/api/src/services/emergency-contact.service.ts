@@ -166,3 +166,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Create emergency alert broadcasting service - 2026-08-14T15:59:08
 
 // Commit: Implement breadcrumb navigation - 2026-08-17T08:35:28
+
+// Commit: Implement SOS trigger endpoint - 2026-08-17T17:12:47
