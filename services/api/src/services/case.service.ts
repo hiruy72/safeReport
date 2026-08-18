@@ -359,3 +359,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add case history screen for mobile - 2026-08-17T10:06:24
 
 // Commit: Implement case status update handler - 2026-08-17T16:01:03
+
+// Commit: Add summary generation for case reports - 2026-08-18T12:36:22
