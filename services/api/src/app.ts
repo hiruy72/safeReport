@@ -64,3 +64,5 @@ export function createApp() {
 // _rev: 639201641290000000
 
 // Commit: Resolve TypeScript strict errors in API layer - 2026-08-13T13:08:28
+
+// Commit: Add environment variable templates - 2026-08-18T19:32:01
