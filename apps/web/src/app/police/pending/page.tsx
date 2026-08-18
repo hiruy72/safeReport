@@ -43,3 +43,5 @@ export default function PolicePendingPage() {
 // Commit: Write API documentation with Swagger - 2026-08-07T11:53:21
 
 // Commit: Create database seed script for development - 2026-08-09T11:55:24
+
+// Commit: Add shake-to-alert gesture detection - 2026-08-18T23:50:59
