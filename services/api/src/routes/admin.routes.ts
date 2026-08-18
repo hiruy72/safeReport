@@ -221,3 +221,5 @@ export default router;
 // Commit: Add identity verification flow - 2026-08-13T07:51:14
 
 // Commit: Add e2e test scaffold with Playwright - 2026-08-17T21:09:32
+
+// Commit: Add error boundary and global error handler - 2026-08-18T17:46:21
