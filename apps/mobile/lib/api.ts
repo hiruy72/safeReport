@@ -150,3 +150,5 @@ export async function deleteEmergencyContact(id: string) {
 // Commit: Scaffold Expo mobile app with tabs navigation - 2026-08-16T09:56:36
 
 // Commit: Fix CORS configuration for mobile clients - 2026-08-17T21:49:12
+
+// Commit: Improve loading states across mobile screens - 2026-08-18T10:45:23
