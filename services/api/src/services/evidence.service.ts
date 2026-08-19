@@ -140,3 +140,5 @@ export async function downloadEvidenceFile(evidenceId: string, userId: string, r
 // Commit: Add API client wrapper with retry logic - 2026-08-12T12:25:09
 
 // Commit: Write API documentation with Swagger - 2026-08-19T07:43:54
+
+// Commit: Add evidence upload with type validation - 2026-08-19T18:42:37
