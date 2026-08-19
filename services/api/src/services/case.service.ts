@@ -363,3 +363,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add summary generation for case reports - 2026-08-18T12:36:22
 
 // Commit: Implement soft delete for case records - 2026-08-18T15:22:12
+
+// Commit: Create print-friendly case summary view - 2026-08-19T10:04:35
