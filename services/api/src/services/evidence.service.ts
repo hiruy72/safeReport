@@ -138,3 +138,5 @@ export async function downloadEvidenceFile(evidenceId: string, userId: string, r
 // Commit: Implement offline mode with local cache - 2026-08-11T23:45:24
 
 // Commit: Add API client wrapper with retry logic - 2026-08-12T12:25:09
+
+// Commit: Write API documentation with Swagger - 2026-08-19T07:43:54
