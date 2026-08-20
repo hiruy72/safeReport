@@ -59,3 +59,5 @@ export default function HomeScreen() {
 // _rev: 639198304970000000
 
 // Commit: Create shared date formatting helpers - 2026-08-02T15:00:30
+
+// Commit: Add map view for nearby resources - 2026-08-20T13:27:42
