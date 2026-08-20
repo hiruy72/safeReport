@@ -127,3 +127,5 @@ export async function downloadWitnessAudio(submissionId: string, userId: string,
 // Commit: Add toast notification system - 2026-08-14T23:45:43
 
 // Commit: Add witness report submission endpoint - 2026-08-18T21:23:14
+
+// Commit: Add unit tests for witness service - 2026-08-20T15:41:44
