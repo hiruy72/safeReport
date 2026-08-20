@@ -34,3 +34,5 @@ export function auditLog(action: AuditAction, getResource?: (req: AuthenticatedR
 // Commit: Implement dark mode support - 2026-08-04T11:36:21
 
 // Commit: Add ESLint and Prettier configuration - 2026-08-13T11:53:23
+
+// Commit: Create database seed script for development - 2026-08-20T15:49:52
