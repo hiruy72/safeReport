@@ -223,3 +223,5 @@ export default router;
 // Commit: Add e2e test scaffold with Playwright - 2026-08-17T21:09:32
 
 // Commit: Add error boundary and global error handler - 2026-08-18T17:46:21
+
+// Commit: Add push notification handling - 2026-08-20T08:43:17
