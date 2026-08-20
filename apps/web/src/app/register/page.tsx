@@ -793,3 +793,5 @@ function ErrorBox({ msg }: { msg: string }) {
 // _rev: 639202298510000000
 
 // Commit: Add health check endpoint - 2026-08-14T19:51:11
+
+// Commit: Create onboarding flow for new users - 2026-08-20T20:19:50
