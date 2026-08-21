@@ -131,3 +131,5 @@ export async function downloadWitnessAudio(submissionId: string, userId: string,
 // Commit: Add unit tests for witness service - 2026-08-20T15:41:44
 
 // Commit: Fix file size limit on witness media upload - 2026-08-20T23:55:17
+
+// Commit: Create witness anonymity protection layer - 2026-08-21T11:10:26
