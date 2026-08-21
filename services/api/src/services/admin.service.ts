@@ -170,3 +170,5 @@ export { verifyVictimIdentity };
 // Commit: Add region management for admin - 2026-08-15T19:44:01
 
 // Commit: Fix pagination off-by-one error - 2026-08-17T11:58:57
+
+// Commit: Add admin layout with sidebar navigation - 2026-08-21T07:08:26
