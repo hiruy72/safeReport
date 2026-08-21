@@ -375,3 +375,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add integration tests for case endpoints - 2026-08-21T20:32:45
 
 // Commit: Implement search across case records - 2026-08-21T08:38:49
+
+// Commit: Add pagination to case listing endpoint - 2026-08-21T23:17:55
