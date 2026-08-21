@@ -254,3 +254,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Create login and registration screens - 2026-08-19T23:54:42
 
 // Commit: Add unit tests for auth service - 2026-08-20T08:48:33
+
+// Commit: Add user authentication service - 2026-08-21T08:22:24
