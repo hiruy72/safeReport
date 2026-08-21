@@ -125,3 +125,5 @@ export interface PoliceDashboardStats {
   solvedCases: number;
   averageResponseTimeHours: number;
 }
+
+// Commit: Add shared TypeScript types package - 2026-08-21T22:02:58
