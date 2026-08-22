@@ -381,3 +381,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add Prisma schema for cases and users - 2026-08-22T15:58:17
 
 // Commit: Implement case detail page with timeline - 2026-08-22T12:59:08
+
+// Commit: Implement AI case matching service - 2026-08-22T10:22:16
