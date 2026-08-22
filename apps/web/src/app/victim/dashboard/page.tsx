@@ -244,3 +244,5 @@ function VerificationBadge({ status }: { status: string }) {
 // Commit: Add shared TypeScript types package - 2026-08-10T08:33:44
 
 // Commit: Configure Turborepo build pipeline - 2026-08-15T17:28:04
+
+// Commit: Add API client wrapper with retry logic - 2026-08-22T10:07:35
