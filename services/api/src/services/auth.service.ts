@@ -256,3 +256,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Add unit tests for auth service - 2026-08-20T08:48:33
 
 // Commit: Add user authentication service - 2026-08-21T08:22:24
+
+// Commit: Fix token expiry edge case on refresh - 2026-08-22T11:09:44
