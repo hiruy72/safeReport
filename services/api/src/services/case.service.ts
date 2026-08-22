@@ -377,3 +377,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Implement search across case records - 2026-08-21T08:38:49
 
 // Commit: Add pagination to case listing endpoint - 2026-08-21T23:17:55
+
+// Commit: Add Prisma schema for cases and users - 2026-08-22T15:58:17
