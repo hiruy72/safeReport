@@ -248,3 +248,5 @@ function VerificationBadge({ status }: { status: string }) {
 // Commit: Add API client wrapper with retry logic - 2026-08-22T10:07:35
 
 // Commit: Implement chat between victim and officer - 2026-08-23T09:40:33
+
+// Commit: Resolve TypeScript strict errors in API layer - 2026-08-23T09:04:55
