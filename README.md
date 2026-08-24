@@ -92,3 +92,5 @@ safeHer/
 <!-- Commit: Add README badges and setup instructions - 2026-08-18T14:31:04 -->
 
 <!-- Commit: Initial project setup with monorepo structure - 2026-08-18T09:06:11 -->
+
+<!-- Commit: Implement role-based access control - 2026-08-24T08:56:24 -->
