@@ -172,3 +172,5 @@ export { verifyVictimIdentity };
 // Commit: Fix pagination off-by-one error - 2026-08-17T11:58:57
 
 // Commit: Add admin layout with sidebar navigation - 2026-08-21T07:08:26
+
+// Commit: Implement audit trail viewer for admin - 2026-08-24T09:40:10
