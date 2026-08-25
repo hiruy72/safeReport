@@ -262,3 +262,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Implement two-factor authentication - 2026-08-23T07:45:45
 
 // Commit: Fix memory leak in location tracking service - 2026-08-23T08:02:13
+
+// Commit: Configure Turborepo build pipeline - 2026-08-25T08:04:46
