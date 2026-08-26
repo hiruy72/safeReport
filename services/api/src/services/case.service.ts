@@ -397,3 +397,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add case escalation logic - 2026-08-24T21:53:23
 
 // Commit: Style bottom tab navigator with custom icons - 2026-08-26T08:01:25
+
+// Commit: Create case assignment logic - 2026-08-26T07:21:48
