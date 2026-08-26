@@ -84,3 +84,5 @@ if __name__ == "__main__":
 # Commit: Improve error messages for validation failures - 2026-08-16T08:23:22
 
 # Commit: Set up TypeScript strict mode across packages - 2026-08-23T18:44:18
+
+# Commit: Improve error messages for validation failures - 2026-08-26T21:48:11
