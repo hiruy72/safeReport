@@ -94,3 +94,5 @@ safeHer/
 <!-- Commit: Initial project setup with monorepo structure - 2026-08-18T09:06:11 -->
 
 <!-- Commit: Implement role-based access control - 2026-08-24T08:56:24 -->
+
+<!-- Commit: Fix pagination off-by-one error - 2026-08-26T14:00:52 -->
