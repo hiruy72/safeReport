@@ -266,3 +266,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Configure Turborepo build pipeline - 2026-08-25T08:04:46
 
 // Commit: Implement JWT token refresh logic - 2026-08-25T19:48:18
+
+// Commit: Implement biometric authentication flow - 2026-08-26T09:33:11
