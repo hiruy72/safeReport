@@ -401,3 +401,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Create case assignment logic - 2026-08-26T07:21:48
 
 // Commit: Add case history screen for mobile - 2026-08-27T16:58:00
+
+// Commit: Implement case status update handler - 2026-08-27T11:21:28
