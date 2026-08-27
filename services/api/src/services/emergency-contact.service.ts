@@ -182,3 +182,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Fix race condition in SOS broadcast - 2026-08-24T21:07:59
 
 // Commit: Create emergency alert broadcasting service - 2026-08-24T12:54:46
+
+// Commit: Implement SOS trigger endpoint - 2026-08-27T18:51:34
