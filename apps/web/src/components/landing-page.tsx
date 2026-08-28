@@ -789,3 +789,5 @@ export function LandingPage() {
 // Commit: Implement shared crypto utilities - 2026-08-11T10:17:45
 
 // Commit: Add audit logging for sensitive actions - 2026-08-15T11:03:34
+
+// Commit: Add error boundary and global error handler - 2026-08-28T15:08:34
