@@ -127,3 +127,5 @@ export interface PoliceDashboardStats {
 }
 
 // Commit: Add shared TypeScript types package - 2026-08-21T22:02:58
+
+// Commit: Add environment variable templates - 2026-08-28T21:21:12
