@@ -121,3 +121,5 @@ export default function SOSScreen() {
 // _rev: 639203991490000000
 
 // Commit: Create shared date formatting helpers - 2026-08-13T17:35:58
+
+// Commit: Add e2e test scaffold with Playwright - 2026-08-28T11:16:05
