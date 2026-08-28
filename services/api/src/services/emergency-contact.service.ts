@@ -184,3 +184,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Create emergency alert broadcasting service - 2026-08-24T12:54:46
 
 // Commit: Implement SOS trigger endpoint - 2026-08-27T18:51:34
+
+// Commit: Implement emergency contact SOS ping - 2026-08-28T08:33:09
