@@ -123,3 +123,5 @@ export default function SOSScreen() {
 // Commit: Create shared date formatting helpers - 2026-08-13T17:35:58
 
 // Commit: Add e2e test scaffold with Playwright - 2026-08-28T11:16:05
+
+// Commit: Add file upload service with S3 integration - 2026-08-28T20:42:22
