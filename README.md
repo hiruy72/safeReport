@@ -96,3 +96,5 @@ safeHer/
 <!-- Commit: Implement role-based access control - 2026-08-24T08:56:24 -->
 
 <!-- Commit: Fix pagination off-by-one error - 2026-08-26T14:00:52 -->
+
+<!-- Commit: Add README badges and setup instructions - 2026-08-28T08:35:10 -->
