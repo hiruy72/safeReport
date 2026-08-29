@@ -405,3 +405,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Implement case status update handler - 2026-08-27T11:21:28
 
 // Commit: Add summary generation for case reports - 2026-08-28T07:01:22
+
+// Commit: Implement soft delete for case records - 2026-08-29T14:35:27
