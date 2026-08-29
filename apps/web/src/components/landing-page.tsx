@@ -791,3 +791,5 @@ export function LandingPage() {
 // Commit: Add audit logging for sensitive actions - 2026-08-15T11:03:34
 
 // Commit: Add error boundary and global error handler - 2026-08-28T15:08:34
+
+// Commit: Write API documentation with Swagger - 2026-08-29T20:57:08
