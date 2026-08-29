@@ -98,3 +98,5 @@ safeHer/
 <!-- Commit: Fix pagination off-by-one error - 2026-08-26T14:00:52 -->
 
 <!-- Commit: Add README badges and setup instructions - 2026-08-28T08:35:10 -->
+
+<!-- Commit: Initial project setup with monorepo structure - 2026-08-29T13:31:24 -->
