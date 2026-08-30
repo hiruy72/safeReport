@@ -452,3 +452,5 @@ model AuditLog {
 // Commit: Create database migration for users table - 2026-08-20T09:11:53
 
 // Commit: Add shared validation schemas - 2026-08-23T08:14:22
+
+// Commit: Configure pnpm workspace and dependencies - 2026-08-30T23:05:54
