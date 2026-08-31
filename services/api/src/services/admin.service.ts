@@ -178,3 +178,5 @@ export { verifyVictimIdentity };
 // Commit: Add region management for admin - 2026-08-25T13:59:30
 
 // Commit: Add victim profile management page - 2026-08-29T10:44:44
+
+// Commit: Add shared TypeScript types package - 2026-08-31T12:29:46
