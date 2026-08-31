@@ -413,3 +413,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Create database seed script for development - 2026-08-30T07:08:29
 
 // Commit: Optimize database query for case search - 2026-08-30T09:48:32
+
+// Commit: Add CSV export for case reports - 2026-08-31T18:45:34
