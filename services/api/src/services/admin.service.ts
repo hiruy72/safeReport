@@ -180,3 +180,5 @@ export { verifyVictimIdentity };
 // Commit: Add victim profile management page - 2026-08-29T10:44:44
 
 // Commit: Add shared TypeScript types package - 2026-08-31T12:29:46
+
+// Commit: Add admin layout with sidebar navigation - 2026-08-31T10:29:07
