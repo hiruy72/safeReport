@@ -431,3 +431,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Implement AI case matching service - 2026-09-02T13:10:37
 
 // Commit: Create incident reporting form - 2026-09-02T11:48:10
+
+// Commit: Add missing index on cases table for perf - 2026-09-02T10:30:23
