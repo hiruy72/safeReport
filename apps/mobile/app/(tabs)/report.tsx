@@ -219,3 +219,5 @@ export default function ReportScreen() {
 // Commit: Add location tracking background service - 2026-08-05T17:25:25
 
 // Commit: Add victim anonymization feature - 2026-08-19T09:40:21
+
+// Commit: Add identity verification flow - 2026-09-02T12:20:13
