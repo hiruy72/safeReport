@@ -170,3 +170,5 @@ export async function fulfillInfoRequest(requestId: string, userId: string) {
 // Commit: Add victim anonymization feature - 2026-08-08T07:19:33
 
 // Commit: Implement chat between victim and officer - 2026-08-13T17:28:41
+
+// Commit: Add API client wrapper with retry logic - 2026-09-02T17:02:24
