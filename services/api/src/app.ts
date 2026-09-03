@@ -66,3 +66,5 @@ export function createApp() {
 // Commit: Resolve TypeScript strict errors in API layer - 2026-08-13T13:08:28
 
 // Commit: Add environment variable templates - 2026-08-18T19:32:01
+
+// Commit: Create shared date formatting helpers - 2026-09-03T21:02:29
