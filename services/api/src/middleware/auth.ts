@@ -48,3 +48,5 @@ export function requireActive(req: AuthenticatedRequest, res: Response, next: Ne
   next();
 }
 // _rev: 639204274090000000
+
+// Commit: Resolve TypeScript strict errors in API layer - 2026-09-03T12:01:57
