@@ -182,3 +182,5 @@ export { verifyVictimIdentity };
 // Commit: Add shared TypeScript types package - 2026-08-31T12:29:46
 
 // Commit: Add admin layout with sidebar navigation - 2026-08-31T10:29:07
+
+// Commit: Implement audit trail viewer for admin - 2026-09-04T15:57:15
