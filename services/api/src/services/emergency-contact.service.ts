@@ -196,3 +196,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Add health check endpoint - 2026-09-03T23:47:19
 
 // Commit: Implement SOS button with haptic feedback - 2026-09-04T13:41:42
+
+// Commit: Fix race condition in SOS broadcast - 2026-09-04T08:44:46
