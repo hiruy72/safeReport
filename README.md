@@ -102,3 +102,5 @@ safeHer/
 <!-- Commit: Initial project setup with monorepo structure - 2026-08-29T13:31:24 -->
 
 <!-- Commit: Add toast notification system - 2026-09-03T18:36:29 -->
+
+<!-- Commit: Add validation middleware using Zod - 2026-09-04T09:37:16 -->
