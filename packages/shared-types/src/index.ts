@@ -131,3 +131,5 @@ export interface PoliceDashboardStats {
 // Commit: Add environment variable templates - 2026-08-28T21:21:12
 
 // Commit: Implement chat between victim and officer - 2026-09-03T16:01:05
+
+// Commit: Add media sanitization on upload - 2026-09-05T10:59:26
