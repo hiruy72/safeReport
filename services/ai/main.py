@@ -88,3 +88,5 @@ if __name__ == "__main__":
 # Commit: Improve error messages for validation failures - 2026-08-26T21:48:11
 
 # Commit: Add victim anonymization feature - 2026-08-29T17:54:11
+
+# Commit: Improve error messages for validation failures - 2026-09-06T16:48:43
