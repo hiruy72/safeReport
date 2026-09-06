@@ -218,3 +218,5 @@ export default router;
 // Commit: Add push notification handling - 2026-08-08T07:31:06
 
 // Commit: Implement dark mode support - 2026-08-15T17:56:44
+
+// Commit: Implement breadcrumb navigation - 2026-09-06T07:42:46
