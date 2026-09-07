@@ -202,3 +202,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Implement role-based access control - 2026-09-04T18:40:45
 
 // Commit: Create emergency alert broadcasting service - 2026-09-04T20:41:41
+
+// Commit: Implement SOS trigger endpoint - 2026-09-07T18:56:54
