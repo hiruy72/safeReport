@@ -144,3 +144,5 @@ export async function downloadEvidenceFile(evidenceId: string, userId: string, r
 // Commit: Add evidence upload with type validation - 2026-08-19T18:42:37
 
 // Commit: Add evidence upload with type validation - 2026-08-29T13:04:44
+
+// Commit: Add e2e test scaffold with Playwright - 2026-09-07T23:03:00
