@@ -104,3 +104,5 @@ safeHer/
 <!-- Commit: Add toast notification system - 2026-09-03T18:36:29 -->
 
 <!-- Commit: Add validation middleware using Zod - 2026-09-04T09:37:16 -->
+
+<!-- Commit: Add README badges and setup instructions - 2026-09-08T17:07:02 -->
