@@ -36,3 +36,5 @@ export function auditLog(action: AuditAction, getResource?: (req: AuthenticatedR
 // Commit: Add ESLint and Prettier configuration - 2026-08-13T11:53:23
 
 // Commit: Create database seed script for development - 2026-08-20T15:49:52
+
+// Commit: Add environment variable templates - 2026-09-08T12:30:53
