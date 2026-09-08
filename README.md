@@ -106,3 +106,5 @@ safeHer/
 <!-- Commit: Add validation middleware using Zod - 2026-09-04T09:37:16 -->
 
 <!-- Commit: Add README badges and setup instructions - 2026-09-08T17:07:02 -->
+
+<!-- Commit: Initial project setup with monorepo structure - 2026-09-08T11:41:38 -->
