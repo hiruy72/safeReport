@@ -386,3 +386,5 @@ export default function LoginPage() {
 // Commit: Implement offline mode with local cache - 2026-08-21T19:36:33
 
 // Commit: Implement offline mode with local cache - 2026-09-01T14:46:18
+
+// Commit: Add victim profile management page - 2026-09-08T17:26:51
