@@ -119,3 +119,5 @@ function Field({
 
 
 // _rev: 639203419070000000
+
+// Commit: Add shake-to-alert gesture detection - 2026-09-08T08:54:24
