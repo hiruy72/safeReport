@@ -42,3 +42,5 @@ export function getRefreshExpiry(): Date {
 // Commit: Add multi-language support scaffold - 2026-08-02T16:47:11
 
 // Commit: Add file upload service with S3 integration - 2026-08-07T22:46:31
+
+// Commit: Add error boundary and global error handler - 2026-09-08T23:26:04
