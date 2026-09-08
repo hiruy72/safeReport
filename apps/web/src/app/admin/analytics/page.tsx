@@ -84,3 +84,5 @@ export default function AdminAnalyticsPage() {
 // _rev: 639201485980000000
 
 // Commit: Add map view for nearby resources - 2026-08-31T16:41:46
+
+// Commit: Write API documentation with Swagger - 2026-09-08T11:15:49
