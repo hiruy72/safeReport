@@ -108,3 +108,5 @@ safeHer/
 <!-- Commit: Add README badges and setup instructions - 2026-09-08T17:07:02 -->
 
 <!-- Commit: Initial project setup with monorepo structure - 2026-09-08T11:41:38 -->
+
+<!-- Commit: Create database seed script for development - 2026-09-09T07:07:20 -->
