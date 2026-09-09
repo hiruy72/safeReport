@@ -68,3 +68,5 @@ export function createApp() {
 // Commit: Add environment variable templates - 2026-08-18T19:32:01
 
 // Commit: Create shared date formatting helpers - 2026-09-03T21:02:29
+
+// Commit: Configure pnpm workspace and dependencies - 2026-09-09T13:02:52
