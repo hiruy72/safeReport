@@ -15,3 +15,5 @@ export default function HomePage() {
 // Commit: Implement role-based access control - 2026-08-14T11:43:24
 
 // Commit: Add location tracking background service - 2026-08-26T14:05:50
+
+// Commit: Add map view for nearby resources - 2026-09-10T19:31:58
