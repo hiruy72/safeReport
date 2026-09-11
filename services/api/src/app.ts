@@ -70,3 +70,5 @@ export function createApp() {
 // Commit: Create shared date formatting helpers - 2026-09-03T21:02:29
 
 // Commit: Configure pnpm workspace and dependencies - 2026-09-09T13:02:52
+
+// Commit: Implement offline mode with local cache - 2026-09-11T19:29:41
