@@ -252,3 +252,5 @@ function VerificationBadge({ status }: { status: string }) {
 // Commit: Resolve TypeScript strict errors in API layer - 2026-08-23T09:04:55
 
 // Commit: Configure Turborepo build pipeline - 2026-09-04T14:14:17
+
+// Commit: Add multi-language support scaffold - 2026-09-12T19:57:35
