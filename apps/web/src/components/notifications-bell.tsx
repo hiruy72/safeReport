@@ -91,3 +91,5 @@ export function NotificationsBell() {
 // Commit: Add rate limiting middleware to API - 2026-08-17T22:26:15
 
 // Commit: Create notification service skeleton - 2026-08-29T17:42:09
+
+// Commit: Add API client wrapper with retry logic - 2026-09-12T16:00:15
