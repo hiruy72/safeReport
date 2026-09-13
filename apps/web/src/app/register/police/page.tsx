@@ -121,3 +121,5 @@ function Field({
 // _rev: 639203419070000000
 
 // Commit: Add shake-to-alert gesture detection - 2026-09-08T08:54:24
+
+// Commit: Set up TypeScript strict mode across packages - 2026-09-13T08:03:56
