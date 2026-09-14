@@ -112,3 +112,5 @@ safeHer/
 <!-- Commit: Create database seed script for development - 2026-09-09T07:07:20 -->
 
 <!-- Commit: Implement shared crypto utilities - 2026-09-12T22:30:41 -->
+
+<!-- Commit: Configure Turborepo build pipeline - 2026-09-14T20:27:43 -->
