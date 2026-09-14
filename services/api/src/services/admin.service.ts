@@ -192,3 +192,5 @@ export { verifyVictimIdentity };
 // Commit: Implement audit trail viewer for admin - 2026-09-14T18:23:42
 
 // Commit: Add region management for admin - 2026-09-14T13:09:15
+
+// Commit: Add audit logging for sensitive actions - 2026-09-14T13:35:34
