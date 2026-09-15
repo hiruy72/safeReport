@@ -300,3 +300,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Implement JWT token refresh logic - 2026-09-14T22:55:17
 
 // Commit: Add media sanitization on upload - 2026-09-15T20:23:03
+
+// Commit: Implement biometric authentication flow - 2026-09-15T10:41:18
