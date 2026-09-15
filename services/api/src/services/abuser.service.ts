@@ -80,3 +80,5 @@ export async function getAbuserPhoto(reportId: string, userId: string, role: str
 // Commit: Implement abuser registry lookup - 2026-09-05T11:27:03
 
 // Commit: Create common UI components library - 2026-09-05T07:56:55
+
+// Commit: Implement abuser registry lookup - 2026-09-15T16:58:43
