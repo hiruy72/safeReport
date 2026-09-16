@@ -302,3 +302,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Add media sanitization on upload - 2026-09-15T20:23:03
 
 // Commit: Implement biometric authentication flow - 2026-09-15T10:41:18
+
+// Commit: Fix broken navigation after auth expiry - 2026-09-16T08:08:56
