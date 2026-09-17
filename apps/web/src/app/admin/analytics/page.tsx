@@ -86,3 +86,5 @@ export default function AdminAnalyticsPage() {
 // Commit: Add map view for nearby resources - 2026-08-31T16:41:46
 
 // Commit: Write API documentation with Swagger - 2026-09-08T11:15:49
+
+// Commit: Add e2e test scaffold with Playwright - 2026-09-17T11:41:14
