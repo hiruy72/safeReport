@@ -485,3 +485,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Add case escalation logic - 2026-09-14T12:21:05
 
 // Commit: Create case assignment logic - 2026-09-15T11:59:03
+
+// Commit: Add case history screen for mobile - 2026-09-17T21:23:01
