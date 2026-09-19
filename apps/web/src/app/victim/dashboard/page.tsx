@@ -256,3 +256,5 @@ function VerificationBadge({ status }: { status: string }) {
 // Commit: Add multi-language support scaffold - 2026-09-12T19:57:35
 
 // Commit: Implement dark mode support - 2026-09-14T22:54:55
+
+// Commit: Configure pnpm workspace and dependencies - 2026-09-19T15:12:44
