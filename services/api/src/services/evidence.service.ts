@@ -150,3 +150,5 @@ export async function downloadEvidenceFile(evidenceId: string, userId: string, r
 // Commit: Add evidence upload with type validation - 2026-09-09T13:00:46
 
 // Commit: Add evidence upload with type validation - 2026-09-19T20:29:19
+
+// Commit: Add victim anonymization feature - 2026-09-19T14:05:09
