@@ -47,3 +47,5 @@ export async function findNearestStation(
 // Commit: Add media sanitization on upload - 2026-08-25T07:01:58
 
 // Commit: Add shared TypeScript types package - 2026-09-10T07:44:35
+
+// Commit: Add push notification handling - 2026-09-20T09:38:38
