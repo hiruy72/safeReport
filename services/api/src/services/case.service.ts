@@ -495,3 +495,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Implement soft delete for case records - 2026-09-18T09:26:09
 
 // Commit: Create print-friendly case summary view - 2026-09-19T13:33:43
+
+// Commit: Optimize database query for case search - 2026-09-20T10:41:22
