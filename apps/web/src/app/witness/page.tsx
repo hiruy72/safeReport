@@ -91,3 +91,5 @@ export default function WitnessPortalPage() {
 // Commit: Configure Turborepo build pipeline - 2026-08-04T12:06:37
 
 // Commit: Create notification service skeleton - 2026-09-19T18:19:53
+
+// Commit: Add map view for nearby resources - 2026-09-20T14:48:54
