@@ -194,3 +194,5 @@ export { verifyVictimIdentity };
 // Commit: Add region management for admin - 2026-09-14T13:09:15
 
 // Commit: Add audit logging for sensitive actions - 2026-09-14T13:35:34
+
+// Commit: Add admin layout with sidebar navigation - 2026-09-21T09:54:33
