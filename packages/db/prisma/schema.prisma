@@ -468,3 +468,5 @@ model AuditLog {
 // Commit: Add geolocation parsing utilities - 2026-09-18T13:50:45
 
 // Commit: Create database migration for users table - 2026-09-20T20:35:50
+
+// Commit: Add API client wrapper with retry logic - 2026-09-22T17:08:29
