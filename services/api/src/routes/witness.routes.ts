@@ -33,3 +33,5 @@ export default router;
 // Commit: Implement breadcrumb navigation - 2026-08-05T13:46:02
 
 // Commit: Implement breadcrumb navigation - 2026-08-27T15:08:14
+
+// Commit: Add multi-language support scaffold - 2026-09-23T17:09:10
