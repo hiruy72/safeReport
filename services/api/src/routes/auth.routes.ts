@@ -224,3 +224,5 @@ export default router;
 // Commit: Implement role-based access control - 2026-09-14T08:00:53
 
 // Commit: Add location tracking background service - 2026-09-16T07:47:39
+
+// Commit: Create shared date formatting helpers - 2026-09-23T20:10:16
