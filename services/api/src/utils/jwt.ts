@@ -46,3 +46,5 @@ export function getRefreshExpiry(): Date {
 // Commit: Add error boundary and global error handler - 2026-09-08T23:26:04
 
 // Commit: Implement chat between victim and officer - 2026-09-13T15:23:29
+
+// Commit: Set up TypeScript strict mode across packages - 2026-09-23T10:41:33
