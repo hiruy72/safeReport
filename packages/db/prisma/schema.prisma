@@ -470,3 +470,5 @@ model AuditLog {
 // Commit: Create database migration for users table - 2026-09-20T20:35:50
 
 // Commit: Add API client wrapper with retry logic - 2026-09-22T17:08:29
+
+// Commit: Add shared validation schemas - 2026-09-23T15:32:05
