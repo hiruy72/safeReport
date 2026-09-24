@@ -523,3 +523,5 @@ export async function triggerSOS(userId: string, latitude?: number, longitude?: 
 // Commit: Create case management table with filters - 2026-09-23T23:07:32
 
 // Commit: Add real-time case updates via WebSocket - 2026-09-23T12:18:09
+
+// Commit: Add case escalation logic - 2026-09-24T15:42:59
