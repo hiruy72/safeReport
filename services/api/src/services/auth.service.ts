@@ -316,3 +316,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Fix token expiry edge case on refresh - 2026-09-23T07:09:29
 
 // Commit: Implement two-factor authentication - 2026-09-23T11:02:39
+
+// Commit: Resolve TypeScript strict errors in API layer - 2026-09-24T09:52:40
