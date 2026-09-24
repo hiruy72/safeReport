@@ -228,3 +228,5 @@ export async function notifyEmergencyContactsOfSos(
 // Commit: Add contacts tab with emergency contacts list - 2026-09-22T21:57:57
 
 // Commit: Add contact list CRUD endpoints - 2026-09-23T10:02:30
+
+// Commit: Implement SOS button with haptic feedback - 2026-09-24T13:18:16
