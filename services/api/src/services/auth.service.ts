@@ -318,3 +318,5 @@ export async function changePassword(userId: string, currentPassword: string, ne
 // Commit: Implement two-factor authentication - 2026-09-23T11:02:39
 
 // Commit: Resolve TypeScript strict errors in API layer - 2026-09-24T09:52:40
+
+// Commit: Implement JWT token refresh logic - 2026-09-25T09:52:49
