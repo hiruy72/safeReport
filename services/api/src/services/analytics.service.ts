@@ -96,3 +96,5 @@ export async function getAdminAnalytics() {
 // Commit: Create analytics dashboard with charts - 2026-09-21T18:30:27
 
 // Commit: Add ESLint and Prettier configuration - 2026-09-24T14:21:12
+
+// Commit: Add validation middleware using Zod - 2026-09-25T14:30:33
